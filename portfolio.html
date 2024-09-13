@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1;" class="active">Home</a>
+            <a href="#" style="--i:2;">About</a>
+            <a href="#" style="--i:3;">Skills</a>
+            <a href="#" style="--i:4;">Projects</a>
+            <a href="#" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Trisha Srivastava</h1>
+            <h3>And I'm a 
+             <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora doloremque explicabo aspernatur neque temporibus incidunt adipisci eum eos esse quis.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/?hl=en" style="--i:7;"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" style="--i:8;"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/feed/" style="--i:9;"><i class="fa fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" style="--i:10;"><i class="fa fa-envelope"></i></a>
+            </div>
+            <a href="CV_Trisha Srivastava (3).pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
+    </section>
+
+    <section class="sec2 skills">
+        <div class="skill">
+            <h1>My Skills</h1>
+
+            <li><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>Javascript</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+            <li><h3>PHP</h3>
+                <span class="bar"><span class="php"></span></span>
+            </li>
+
+        </div>
+    </section>
+
+    <section class="sec3 projects">
+        <div class="main-text" id="project">
+            <h2>Latest <span>Projects</span> </h2>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="image2.PNG" alt="">
+                    <div class="layer">
+                        <h5>UI/UX Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim ratione in neque placeat dolores nam dolorum accusamus porro aperiam dolore modi, provident totam quas facilis inventore nesciunt cupiditate voluptas.</p>
+
+                        <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="image4.PNG" alt="">
+                        <div class="layer">
+                            <h5>Sign up page</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim ratione in neque placeat dolores nam dolorum accusamus porro aperiam dolore modi, provident totam quas facilis inventore nesciunt cupiditate voluptas.</p>
+    
+                            <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+   
+    </section>
+
+    <section class="sec4 contact">
+        <div class="contact-container">
+            <form  action="https://api.web3forms.com/submit"  method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="28b5119e-8669-4293-b435-64f82804118e">
+                <input type="text" name="name" placeholder="Your Name:" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email:" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+                
+
+            </form>
+            <div class="contact-right">
+                <img src="download.png" alt="">
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
